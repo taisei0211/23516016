@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int k,l,m;
+    printf("How many chimera ants?");
+    scanf("%d %d",&k,&l);
+    
+    m=k+l;
+    printf("The number of chimera ants is %d",m);
+
+    return 0;
+    
+}
